@@ -18,9 +18,9 @@
     }
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "clean": "rimraf dist .turbo",
-    "dev": "node init && pnpm watch",
+    "dev": "pnpm watch",
     "format": "biome format --write .",
     "format:check": "biome ci .",
     "test": "vitest run",

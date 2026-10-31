@@ -21,8 +21,8 @@
     }
   },
   "scripts": {
-    "dev": "node init && tsdown --watch",
-    "build": "node init && tsdown",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
     "test": "vitest run",

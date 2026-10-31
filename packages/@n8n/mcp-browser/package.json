@@ -12,10 +12,10 @@
   ],
   "scripts": {
     "clean": "rimraf dist .turbo",
-    "start": "node init && node dist/server.js",
-    "dev": "node init && tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
     "typecheck": "tsc --noEmit",
-    "build": "node init && tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json",
     "format": "biome format --write src",
     "format:check": "biome ci src",
     "lint": "eslint . --quiet",

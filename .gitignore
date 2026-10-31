@@ -8,6 +8,9 @@ npm-debug.log*
 yarn.lock
 google-generated-credentials.json
 _START_PACKAGE
+.env
+.env.local
+.vscode/*
 !.claude
 !.vscode/extensions.json
 !.vscode/settings.default.json
@@ -62,4 +65,3 @@ packages/cli/src/commands/export/outputs
 .n8n
 lefthook-local.yml
 .playwright-mcp
-config.bat
